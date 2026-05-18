@@ -1,0 +1,256 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma,  Verdana, sans-serif;
+}
+.logo{
+    width: 100%;
+    height: 100px;
+    margin:0;
+    padding:0;
+    display:flex;
+    position:absolute;
+    top:1px;
+    
+}
+
+.language-selection{
+    position:absolute;
+    right:230px;
+    top: 20px;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    height:400px;
+}
+
+.sign-in-button{
+    position:absolute;
+    top:20px;
+    right:150px;
+    height: 27px;
+    width: 55px;
+    padding: auto;
+    background-color: rgb(164,20,28);
+    color:white;
+    border:none;
+    border-radius:6px;
+    font-size: 1.25rem;
+    font-weight: 800px;
+}
+.navbaar{
+    width:100%;
+    height:800px;
+    position: absolute;
+    top:0;
+    left:0;
+    background-image: url("Netflix_background1.jpg") ;
+    display:flex;
+    align-items:center;
+}
+.text1{
+    position:absolute;
+    top:200px;
+    left:50%;
+    transform: translateX(-50%);
+    font-size: 3.5rem;
+    font-weight: 800;
+    color:white;
+    text-align: center;
+}
+.text2{
+    position:absolute;
+    top:370px;
+    left:50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+    font-weight: 500;
+    color:white;
+    text-align: center;
+}
+.text3{
+    position:absolute;
+    top:400px;
+    left:50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+    font-weight: 400;
+    color:white;
+    text-align: center;
+}
+
+.email{
+    position:absolute;
+    top:470px;
+    left:50%;
+    transform: translateX(-50%);
+    display:flex;
+    background: transparent;
+}
+.middle.curve{
+    position:absolute;
+    bottom:-70px;
+    width:100%;
+    height:150px;
+    background-color: black;
+    border-radius: 50% / 40%;
+    border-top: 6px solid rgb(235, 88, 47);
+}
+
+.trending{
+    display: flex;
+    width:100%; 
+    height: 1775px;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    top: 775px;
+    position: absolute; 
+}
+.h2{
+    position:absolute;
+    top:15px;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color:white;
+    left: 100px;
+    
+}
+
+.trending-movies{
+    margin: 30px;
+    display: flex;
+    top: 60px;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    gap: 20px;
+    left: 75px;
+    right: 75px;
+
+}
+.movie1, .movie2, .movie3, .movie4, .movie5, .movie6, .movie7, .movie8, .movie9, .movie10 {
+    width: 250px;
+    height: 450px;
+    border-radius: 10px;
+    margin: 5px;
+    transition: transform 0.3s;
+
+}
+.movie1:hover, .movie2:hover, .movie3:hover, .movie4:hover, .movie5:hover, .movie6:hover, .movie7:hover, .movie8:hover, .movie9:hover, .movie10:hover {
+    transform: scale(1.05);
+}
+
+.trending-movies2{
+    margin: 30px;
+    display: flex;
+    top: 400px;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    gap: 20px;
+    left: 75px;
+    right: 75px;
+}
+
+.text4{
+    position:absolute;
+    top: 750px;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color:white;
+    left: 100px;
+}
+
+.clips{
+    top: 825px;
+    width: 300px;
+    height: 550px;
+    border-radius: 10px;
+    margin: 5px;
+    position: absolute;
+    display: flex;
+    margin: 15px;
+    left: 100px;
+    gap: 20PX;
+}
+
+.text5{
+    position:absolute;
+    top: 2000px;
+    left:50%;
+    transform: translateX(-50%);
+    font-size: 1.25rem;
+    font-weight: 500;
+    color:white;
+    text-align: center;
+
+}
+
+.email2{
+    position:absolute;
+    top: 2050px;
+    left:50%;
+    transform: translateX(-50%);
+    display:flex;
+    background: transparent;
+}
+
+.footer-container {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly; 
+    padding: 40px,20px;
+    top: 2250px;
+    left: 30px;
+    right: 30px;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+.footer-column a {
+    color: #b3b3b3;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.footer-text1{
+    top: 2210px;
+    color: #b3b3b3;
+    left: 225px;
+    position: absolute;
+    text-decoration: underline;
+
+}
+
+.language-selection-footer{
+    position:absolute;
+    top: 2400px;
+    left:225px; 
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    height:400px;
+}
+
+.footer-text2{
+    position: absolute;
+    top: 2500px;
+    left: 700px;
+    color: gray;
+    
+}
+.footer-text3{
+    position: absolute;
+    top: 2475px;
+    left: 650px;
+    color: gray;
+    
+}
+
+
